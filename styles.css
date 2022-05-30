@@ -30,6 +30,7 @@ section .item-two {
   background-size: cover;
   grid-column-start: 2;
   grid-row-start: 2;
+  background-position: center;
 }
 section .item-three {
   background: url(./item-three.jpeg);
@@ -37,12 +38,14 @@ section .item-three {
 
   grid-column-start: 7;
   grid-row-start: 5;
+  background-position: center;
 }
 section .item-four {
   background: url(./item-four.jpeg);
   background-size: cover;
   grid-row-start: 4;
   grid-column-start: 6;
+  background-position: center;
 }
 
 section .item-five {
@@ -50,18 +53,21 @@ section .item-five {
   background-size: cover;
   grid-row-start: 3;
   grid-column-start: 5;
+  background-position: center;
 }
 section .item-six {
   background: url(./item-six.jpeg);
   background-size: cover;
   grid-column-start: 3;
   grid-row-start: 3;
+  background-position: center;
 }
 section .item-seven {
   background: url(./item-seven.jpeg);
   background-size: cover;
   grid-row-start: 4;
   grid-column-start: 4;
+  background-position: center;
 }
 section .item-eight {
   background: url(./item-eight.jpeg);
@@ -70,6 +76,7 @@ section .item-eight {
   grid-row-end: 6;
   grid-column-start: 1;
   grid-column-end: 3;
+  background-position: center;
 }
 section .item-nine {
   background: url(./item-nine.jpeg);
@@ -78,13 +85,13 @@ section .item-nine {
   grid-row-end: 4;
   grid-column-start: 7;
   grid-column-end: 9;
+  background-position: center;
 }
 section .design {
-  grid-row-start: 2;
-
+  grid-row-start: 3;
   grid-column-start: 4;
   grid-column-end: 6;
-  font-size: 70px;
+  font-size: 180px;
   color: red;
 }
 
