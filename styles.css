@@ -1,0 +1,125 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Maven Pro", sans-serif;
+}
+section {
+  display: grid;
+  grid-template-columns: repeat(8, 1fr);
+  grid-template-rows: 20px repeat(4, 1fr) 20px;
+  gap: 5px;
+  font-family: "Maven Pro", sans-serif;
+  width: 100%;
+  background-color: rgb(232, 232, 232);
+  height: 100vh;
+}
+
+section .item-one {
+  background: url(./item-one.jpeg);
+  background-size: cover;
+
+  grid-column-start: 1;
+  grid-row-start: 2;
+}
+
+section .item-two {
+  background: url(./item-two.jpeg);
+  background-size: cover;
+  grid-column-start: 2;
+  grid-row-start: 2;
+}
+section .item-three {
+  background: url(./item-three.jpeg);
+  background-size: cover;
+
+  grid-column-start: 7;
+  grid-row-start: 5;
+}
+section .item-four {
+  background: url(./item-four.jpeg);
+  background-size: cover;
+  grid-row-start: 4;
+  grid-column-start: 6;
+}
+
+section .item-five {
+  background: url(./item-five.jpeg);
+  background-size: cover;
+  grid-row-start: 3;
+  grid-column-start: 5;
+}
+section .item-six {
+  background: url(./item-six.jpeg);
+  background-size: cover;
+  grid-column-start: 3;
+  grid-row-start: 3;
+}
+section .item-seven {
+  background: url(./item-seven.jpeg);
+  background-size: cover;
+  grid-row-start: 4;
+  grid-column-start: 4;
+}
+section .item-eight {
+  background: url(./item-eight.jpeg);
+  background-size: cover;
+  grid-row-start: 4;
+  grid-row-end: 6;
+  grid-column-start: 1;
+  grid-column-end: 3;
+}
+section .item-nine {
+  background: url(./item-nine.jpeg);
+  background-size: cover;
+  grid-row-start: 2;
+  grid-row-end: 4;
+  grid-column-start: 7;
+  grid-column-end: 9;
+}
+section .design {
+  grid-row-start: 2;
+
+  grid-column-start: 4;
+  grid-column-end: 6;
+  font-size: 70px;
+  color: red;
+}
+
+section .one {
+  font-size: 20px;
+  font-weight: bolder;
+}
+section .one0 {
+  grid-column-start: 3;
+  grid-row-start: 1;
+}
+section .two0 {
+  grid-column-start: 4;
+  grid-row-start: 1;
+}
+section .three0 {
+  grid-column-start: 5;
+  grid-row-start: 1;
+}
+section .four0 {
+  grid-column-start: 6;
+  grid-row-start: 1;
+}
+section .menu {
+  grid-column-start: 7;
+  grid-row-start: 1;
+  font-weight: bolder;
+}
+section .berlin {
+  grid-column-start: 1;
+  grid-row-start: 6;
+  font-weight: bolder;
+}
+section .dci {
+  grid-column-start: 6;
+  grid-row-start: 6;
+  font-style: italic;
+}
