@@ -20,7 +20,7 @@ section {
 section .item-one {
   background: url(./item-one.jpeg);
   background-size: cover;
-
+  background-position: center;
   grid-column-start: 1;
   grid-row-start: 2;
 }
